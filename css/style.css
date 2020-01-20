@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+}
+body{
+    background-color: #3f0002;
+    position: relative;
+}
+header{
+    height: 40px;
+    background-color: #af2024;
+}
+
+section{
+    background-image: url("../images/bg-image.png");
+    height: 100%;
+    margin: auto;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 33px;
+}
+.soc_icon_facebook{
+    position: fixed;
+    top: 262px;
+    right: 0px;
+}
+.soc_icon_twitter{
+    position: fixed;
+    top: 312px;
+    right: 0px;
+}
+.container1{
+    max-width: 960px;
+    margin: auto;
+    padding-top: 19px;
+}
+.container2{
+    margin-top: 21px;
+    max-width: 710px;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 128px;
+    position: relative;
+    top: 69px;
+    z-index: 0;
+}
+.video_title{
+    background-color: #98161b;
+    width: 100%;
+    font-family: 'Arvo', serif;
+}
+section div span{
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size: 20px;
+    line-height: 70px;
+    margin-left: 19px;
+}
+.container3{
+    max-width: 567px;
+    margin: auto;
+}
+.video{
+    margin-top: 63px;
+    background-color: #e7e7e7;
+    height: 346px;
+    position: relative;
+    width: 100%;
+}
+.video:after{
+    content: "";
+    border-top: 25px solid transparent;
+    border-left: 43px solid #98161b;
+    border-bottom: 25px solid transparent;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -30px;
+    margin-left: -15px;
+}
+.border{
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    color: #98161b;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.day{
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    color: #7d7d7d;
+    font-weight: lighter;
+}
+.border:after{
+    content: "";
+    margin-top: 19px;
+    width: 43px;
+    height: 1px;
+    display: block;
+    border-bottom: dotted 2px #98161b;
+}
+.points{
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    color: #98161b;
+}
+.text{
+    color: #98161b;
+    font-size: 12px;
+    font-family: 'Arvo', serif;
+    font-weight: lighter;
+    margin-top: 18px;
+}
+footer{
+    background-color: #000000;
+    height: 455px;
+    z-index: -1;
+    width: 100%;
+    position: relative;
+}
